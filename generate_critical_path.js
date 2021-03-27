@@ -3,7 +3,7 @@ var activity_array= [{ activity:'A',Precedent:[],time:3,ftime:3,critical_path:''
 {activity:'D',precedent:['B'],time:5,ftime:0,critical_path:''},{activity:'E',precedent:['C'],time:1,ftime:0,critical_path:''},
 {activity:'F',precedent:['C'],time:2,ftime:0,critical_path:''},{activity:'G',precedent:['D','E'],time:4,ftime:0,critical_path:''}
 ,{activity:'H',precedent:['F','G'],time:3,ftime:0,critical_path:''}];
-console.log(activity_array);
+//console.log(activity_array);
 for( var pointer1=0;pointer1<activity_array.length;pointer1++)
 {
 for( var pointer3=pointer1+1;pointer3<activity_array.length;pointer3++)
